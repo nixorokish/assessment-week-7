@@ -67,6 +67,7 @@ const pangram = (sentence) => {
 let sentence = 'The quick brown fox jumps over the lazy dog!'
 console.log('sentence: ', sentence)
 console.log(pangram(sentence))
+console.log('runtime: O(n)')
 
 console.log(br)
 
@@ -82,3 +83,4 @@ console.log(find_longest_word(["hi", "hello"]))
 
 console.log(br)
 console.log(br)
+console.log('runtime: O(n)')
